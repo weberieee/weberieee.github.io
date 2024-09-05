@@ -73,6 +73,11 @@ hr {
   text-align: center;
   padding: 0 4%;
 }
+
+.container h1 {
+    font-weight: bold;
+}
+
 .container p, .container ol, .container ul {
   font-size: 17px;
   padding: 0 5%;
