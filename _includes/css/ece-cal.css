@@ -1,0 +1,138 @@
+/* @font-face{ */
+/*   font-family:Flavor; */
+/*   src: url("https://static.showit.co/file/__v-txqEQHGc_1vPkFwX5g/62804/flavourregular.woff"); */
+/* } */
+
+/* @font-face{ */
+/*   font-family:Raleway; */
+/*   src: url("https://static.showit.co/file/kNTijHS3ScCfjP9WlVFYAQ/62804/raleway-light.woff"); */
+/* } */
+
+
+body{
+  background-color:#FFFFFF;
+  color:#4b4945
+}
+
+/* a{ */
+/*   color:#492365; */
+/*   font-weight:bold; */
+/* } */
+
+/* a:visited{ */
+  
+/*   color:#492365; */
+/* } */
+
+a:hover{
+  color:#492365;
+  text-decoration:none;
+}
+
+.orange{
+  color:#492365;
+}
+
+.e2{
+  font-family:'tradegothiclt-light', sans-serif;
+}
+
+#calendar-title{
+  font-family:"tradegothicltcom-bdcn20",sans-serif;
+  font-size:2.7em;
+}
+
+#calendar-list{
+  font-family:"tradegothicltcom-bdcn20",sans-serif;
+}
+
+#calendar-container{
+  margin:20px;
+  /* width:400px; */
+}
+
+#calendar-button{
+  background-color:#492365;
+  padding:10px;
+  width:auto;
+  /* font-weight:bold; */
+  font-family:"tradegothicltcom-bdcn20",sans-serif;
+  font-size:1.3em;
+  /* border-radius:5px; */
+  cursor:pointer;
+  color:#FFFFFF;
+}
+#calendar-button:hover{
+    background-color:#8446ac
+  /* color:#4b4945; */
+}
+#calendar-button:active{
+  background-color:#8446ac;
+  /* color:rgba(227,78,0,1); */
+}
+
+.date-box{
+  width:60px;
+  font-size:1em;
+  float:left;
+  margin-bottom:-20px;
+}
+
+.date-month{
+  display:block;
+  line-height:1;
+  margin-bottom:-15px;
+  text-align:center;
+}
+.date-day{
+  display:block;
+  font-size:3.5em;
+  font-weight:bold;
+  text-align:center;
+}
+
+#calendar-list ol{
+  list-style-type:none;
+  margin:0 0 1.5em 0;
+  padding:0;
+  display:block;
+}
+
+.events{
+  display:block;
+  padding-left: 65px;
+  
+}
+
+.calendar-title{
+  display:block;
+  text-transform:uppercase;
+  font-size:18px;
+  cursor:pointer;
+}
+
+.calendar-title:hover{
+  text-decoration:underline;
+}
+
+.info{
+  display:block;
+  margin-bottom: 25px;
+}
+
+.events{
+  margin-top:10px;
+}
+
+.event-details{
+  display:none;
+  font-family:'tradegothiclt-light', sans-serif;
+  font-size:16px;
+}
+
+.top-div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
