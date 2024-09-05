@@ -17,3 +17,21 @@
   font-weight: bold;
   /* Ensure bold text for <b> tags within <p> */
 }
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #492365;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #a391b1;
+}

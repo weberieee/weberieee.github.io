@@ -75,6 +75,7 @@ $.getJSON(
                 if (event["eventDescr"] !== "<i>No Event Description</i>") {
                     markup += "<br/>";
                     markup += "Event Description:";
+                    markup += "<br/>";
                     markup += event["eventDescr"] + "<br/>";
                 }
                 markup += "</br><a href='" + event["htmlLink"] + "'>View this Event in Google Calendar</a><br/><br/></p>";
