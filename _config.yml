@@ -14,13 +14,13 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "SinglePaged - Simple Jekyll template"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
+title:       "Weber State IEEE Student Branch"
+keywords:    "electronics, electrical engineering, computer engineering, weber state, ieee, student branch"
+description: "A single-page site for the Weber State IEEE student branch"
+source_link: "https://github.com/weberieee/weberieee.github.io"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+
 
 
 ### template colors, used site-wide via css ###
@@ -36,4 +36,6 @@ colors:
 
 kramdown:
   auto_ids:  false
+
+
 
